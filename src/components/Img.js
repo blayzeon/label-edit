@@ -12,7 +12,6 @@ export default function Img(props) {
   return (
     <img
       src={img.url}
-      height={img.height}
       width={img.width}
       className={img.class}
       onClick={toggleMenu}
